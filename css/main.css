@@ -17,6 +17,12 @@ html {
   box-sizing: inherit;
 }
 
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -246,6 +252,26 @@ body {
 }
 
 .coinin:hover .coin2 {
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.coin3 {
+  transition: all .5s ease-in-out;
+  transform: scale(1);
+}
+
+.coinin:hover .coin3 {
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.coin4 {
+  transition: all .5s ease-in-out;
+  transform: scale(1);
+}
+
+.coinin:hover .coin4 {
   transform: scale(1.1);
   transform-origin: center;
 }
