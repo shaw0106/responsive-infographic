@@ -275,3 +275,40 @@ body {
   transform: scale(1.1);
   transform-origin: center;
 }
+
+
+/*------svg animations*/
+
+.biglockin {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.lineupin {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.chartin {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.coinin {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.bandsin {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.lockbottomin {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.js-appear-animate {
+  opacity: 1;
+}
