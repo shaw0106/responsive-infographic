@@ -4,6 +4,7 @@ var $chartin = $('.chartin');
 var $coinin = $('.coinin');
 var $bandsin = $('.bandsin');
 var $lockbottomin = $('.lockbottomin');
+var $orangechart = $('.orangechart');
 
 $biglockin.waypoint(function () {
   $biglockin.addClass('js-appear-animate');
@@ -30,3 +31,7 @@ $lockbottomin.waypoint(function () {
 }, { offset: '75%'});
 
 // expand chart
+
+$orangechart.on('mouseover', function () {
+  $orangechart.toggleClass('collapse');
+});

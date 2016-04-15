@@ -322,9 +322,35 @@ body {
   opacity: 1;
 }
 
-/*-------Java bar expand-----------*/
+/*-------Chart expand-----------*/
 
 .orangechart {
   max-width: 0;
   transition: all .5s linear;
 }
+
+.collapse {
+  max-width: 100;
+  transition: all .5s linear;
+}
+
+/*.panel {
+  max-height: 10em;
+  overflow: hidden;
+  top: 50%;
+  width: 250px;
+  background-color: yellow;
+  transform: translateY(-50%);
+  color: darkgoldenrod;
+  text-align: center;
+}
+
+.panel h2 {
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.collapse {
+  max-height: 0;
+  transition: all .5s linear;
+}*/
