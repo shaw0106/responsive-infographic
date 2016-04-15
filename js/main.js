@@ -7,24 +7,26 @@ var $lockbottomin = $('.lockbottomin');
 
 $biglockin.waypoint(function () {
   $biglockin.addClass('js-appear-animate');
-}, { offset: '50%'});
+}, { offset: '75%'});
 
 $lineupin.waypoint(function () {
   $lineupin.addClass('js-appear-animate');
-}, { offset: '50%'});
+}, { offset: '75%'});
 
 $chartin.waypoint(function () {
   $chartin.addClass('js-appear-animate');
-}, { offset: '50%'});
+}, { offset: '75%'});
 
 $coinin.waypoint(function () {
   $coinin.addClass('js-appear-animate');
-}, { offset: '50%'});
+}, { offset: '75%'});
 
 $bandsin.waypoint(function () {
   $bandsin.addClass('js-appear-animate');
-}, { offset: '50%'});
+}, { offset: '75%'});
 
 $lockbottomin.waypoint(function () {
   $lockbottomin.addClass('js-appear-animate');
-}, { offset: '50%'});
+}, { offset: '75%'});
+
+// expand chart

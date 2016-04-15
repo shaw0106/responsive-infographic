@@ -229,12 +229,23 @@ body {
 .orangedude {
   transition: all .5s ease-in-out;
   transform: scale(1);
+  fill: #7998B1;
 }
 
 .lineupin:hover .orangedude {
   transform: scale(1.2);
   transform-origin: bottom;
+  fill: #F59555;
 }
+
+.blue-group {
+  transition: all .5s ease-in-out;
+  transform: scale(1);
+}
+
+.lineupin:hover .blue-group {
+  transform: scale(.95);
+  transform-origin: center;;
 
 .coin1 {
   transition: all .5s ease-in-out;
@@ -276,9 +287,7 @@ body {
   transform-origin: center;
 }
 
-
-/*------svg animations*/
-
+/*------svg animations with js--------------*/
 .biglockin {
   opacity: 0;
   transition: all 200ms ease-in;
@@ -286,7 +295,7 @@ body {
 
 .lineupin {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 750ms ease-in;
 }
 
 .chartin {
@@ -296,7 +305,7 @@ body {
 
 .coinin {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 750ms ease-in;
 }
 
 .bandsin {
@@ -306,9 +315,16 @@ body {
 
 .lockbottomin {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 750ms ease-in;
 }
 
 .js-appear-animate {
   opacity: 1;
+}
+
+/*-------Java bar expand-----------*/
+
+.orangechart {
+  max-width: 0;
+  transition: all .5s linear;
 }
