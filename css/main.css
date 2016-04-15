@@ -290,67 +290,52 @@ body {
 /*------svg animations with js--------------*/
 .biglockin {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 5s ease-in;
 }
 
 .lineupin {
   opacity: 0;
-  transition: all 750ms ease-in;
+  transition: all 5s ease-in;
 }
 
 .chartin {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 5s ease-in;
 }
 
 .coinin {
   opacity: 0;
-  transition: all 750ms ease-in;
+  transition: all 5s ease-in;
 }
 
 .bandsin {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 5s ease-in;
 }
 
 .lockbottomin {
   opacity: 0;
-  transition: all 750ms ease-in;
+  transition: all 5s ease-in;
 }
 
 .js-appear-animate {
   opacity: 1;
 }
 
-/*-------Chart expand-----------*/
+/*-------Chart expand-----------
 
 .orangechart {
-  max-width: 0;
+  width: 0;
   transition: all .5s linear;
 }
 
-.collapse {
-  max-width: 100;
+.expand {
+  max-width: 175px;
   transition: all .5s linear;
+  transform-origin: left;
 }
 
-/*.panel {
-  max-height: 10em;
-  overflow: hidden;
-  top: 50%;
-  width: 250px;
-  background-color: yellow;
-  transform: translateY(-50%);
-  color: darkgoldenrod;
-  text-align: center;
-}
+.bluechart {
 
-.panel h2 {
-  margin: 0;
-  padding: 3rem 0;
 }
-
-.collapse {
-  max-height: 0;
-  transition: all .5s linear;
-}*/
+*/
